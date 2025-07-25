@@ -89,29 +89,61 @@ def extract_outline_with_heuristics(doc):
     prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
     for page_num, page in enumerate(doc, start=1):
         blocks = page.get_text("dict", sort=True)["blocks"]
+        page_height = page.rect.height
         for block in blocks:
             block_rect = fitz.Rect(block['bbox'])
             if not block.get('lines') or not block['lines'][0]['spans']:
                 continue
             if any(block_rect.intersects(zone) for zone in header_footer_zones):
                 continue
-            size = block['lines'][0]['spans'][0]['size']
-            font = block['lines'][0]['spans'][0]['font']
+            span = block['lines'][0]['spans'][0]
+            size = span['size']
+            font = span['font']
             text = "".join(s['text'] for l in block['lines'] for s in l['spans']).strip()
             if not text or len(text) > 120:
                 continue
-            if size < body_size + 1:
-                continue
+
+            # --- Advanced heuristics ---
+            score = 0
+            # Font size still matters, but is not the only factor
+            if size > body_size + 1:
+                score += 2
+            if size > body_size + 3:
+                score += 2
+            # Bold font
+            if 'bold' in font.lower():
+                score += 2
+            # All-caps short headings
+            if text.isupper() and 3 < len(text) < 40:
+                score += 2
+            # Ends with colon (common in headings)
+            if text.endswith(":"):
+                score += 1
+            # Short lines (likely headings)
+            if len(text.split()) <= 10:
+                score += 1
+            # Appears in top 30% of page
+            if block['bbox'][1] < page_height * 0.3:
+                score += 1
+            # Numbered or prefixed headings
+            if re.match(r'^(\d+\.|[IVXLCDM]+\.|[A-Z]\.|\d+\))', text):
+                score += 2
+            # Penalties for likely body text
+            if len(text.split()) > 15:
+                score -= 2
+            if text.endswith('.'):
+                score -= 1
+            # Must contain at least one letter
             if not re.search(r'[a-zA-Z]', text):
                 continue
-            if prefix_regex.match(text):
-                continue
-            style_key = (round(size), font)
-            potential_headings.append({
-                "text": text,
-                "page": page_num,
-                "style_key": style_key
-            })
+            # Threshold for heading selection
+            if score >= 3:
+                style_key = (round(size), font)
+                potential_headings.append({
+                    "text": text,
+                    "page": page_num,
+                    "style_key": style_key
+                })
     return classify_and_sort_headings(potential_headings)
 
 
@@ -122,7 +154,9 @@ def classify_and_sort_headings(headings):
     for h in headings:
         style_to_headings[h['style_key']].append(h)
     sorted_styles = sorted(style_to_headings.keys(), key=lambda x: (x[0], x[1]), reverse=True)
-    level_map = {style: f"H{i+1}" for i, style in enumerate(sorted_styles[:4])}
+    # Only allow H1, H2, H3
+    max_levels = 3
+    level_map = {style: f"H{min(i+1, max_levels)}" for i, style in enumerate(sorted_styles)}
     classified_headings = []
     # Assign levels to all headings, defaulting to H4 if not mapped
     for style, hs in style_to_headings.items():

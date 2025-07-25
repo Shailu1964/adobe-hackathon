@@ -20,6 +20,131 @@
             "text": "Pravin Futane",
             "page": 1,
             "level": "H2"
+        },
+        {
+            "text": "II. RELATED WORK",
+            "page": 2,
+            "level": "H3"
+        },
+        {
+            "text": "III. PROPOSED SOLUTION",
+            "page": 3,
+            "level": "H3"
+        },
+        {
+            "text": "A. Crime Data Processing & Classification",
+            "page": 4,
+            "level": "H3"
+        },
+        {
+            "text": "D. Pathfinding Algorithm",
+            "page": 4,
+            "level": "H3"
+        },
+        {
+            "text": "B. Graph Updates for Crime-Aware Routing",
+            "page": 4,
+            "level": "H3"
+        },
+        {
+            "text": "C. Road Network Graph Creation",
+            "page": 4,
+            "level": "H3"
+        },
+        {
+            "text": "iii. Optimized Graph (G_optimized):",
+            "page": 4,
+            "level": "H3"
+        },
+        {
+            "text": "E. Flow Chart",
+            "page": 5,
+            "level": "H3"
+        },
+        {
+            "text": "G. Real-Time Updates",
+            "page": 5,
+            "level": "H3"
+        },
+        {
+            "text": "F. Integration & Visualization",
+            "page": 5,
+            "level": "H3"
+        },
+        {
+            "text": "f(n) = g(n) + h(n) + c(n) Where:",
+            "page": 5,
+            "level": "H3"
+        },
+        {
+            "text": "[Fig.1: Flow Chart]",
+            "page": 5,
+            "level": "H3"
+        },
+        {
+            "text": "H. Route Metrics",
+            "page": 6,
+            "level": "H3"
+        },
+        {
+            "text": "IV. RESULTS",
+            "page": 6,
+            "level": "H3"
+        },
+        {
+            "text": "Table 1: Crime Risk Assessment",
+            "page": 6,
+            "level": "H3"
+        },
+        {
+            "text": "Table 2: Route Comparison",
+            "page": 7,
+            "level": "H3"
+        },
+        {
+            "text": "V. CONCLUSIONS AND FUTURE SCOPE",
+            "page": 7,
+            "level": "H3"
+        },
+        {
+            "text": "Table 3: Performance Matrics",
+            "page": 7,
+            "level": "H3"
+        },
+        {
+            "text": "Route Type Distance(km) Fastest Route (Blue) 7.23 km Safest Route (Green) 8.56 km Optimised Route",
+            "page": 7,
+            "level": "H3"
+        },
+        {
+            "text": "For Example - Warje to Swargate",
+            "page": 7,
+            "level": "H3"
+        },
+        {
+            "text": "[Fig.5: Generated Routes from Warje to Swargate]",
+            "page": 7,
+            "level": "H3"
+        },
+        {
+            "text": "REFERENCES",
+            "page": 8,
+            "level": "H3"
+        },
+        {
+            "text": "DECLARATION STATEMENT",
+            "page": 8,
+            "level": "H3"
+        },
+        {
+            "text": "impactful features that enhance safety and law enforcement capabilities:",
+            "page": 8,
+            "level": "H3"
+        },
+        {
+            "text": "1. Leni Marlina, Aswandi, Dedi Gunawan “Implementation of the A Star",
+            "page": 8,
+            "level": "H3"
         }
     ]
 }

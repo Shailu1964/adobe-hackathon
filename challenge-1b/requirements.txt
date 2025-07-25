@@ -1,0 +1,4 @@
+sentence-transformers
+torch
+PyMuPDF # fitz, already in your 1A
+tqdm
