@@ -1,1 +1,5 @@
 PyMuPDF==1.26.3
+torch
+transformers
+scikit-learn
+numpy

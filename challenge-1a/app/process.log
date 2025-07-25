@@ -1,0 +1,505 @@
+2025-07-26 00:18:24,154 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:18:24,252 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:18:24,449 [ERROR] ❌ Failed to process '9781474402095_Three_Short_Novels_Introduction.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:18:24,469 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:18:24,474 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:18:24,474 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:18:24,492 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:18:24,495 [ERROR] ❌ Failed to process 'file01.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:18:24,496 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:18:24,506 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:18:24,603 [ERROR] ❌ Failed to process 'file02.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:18:24,605 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:18:24,621 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:18:24,668 [ERROR] ❌ Failed to process 'file03.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:18:24,670 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:18:24,719 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:18:24,720 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:18:24,734 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:18:24,736 [ERROR] ❌ Failed to process 'file05.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:18:24,738 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:18:24,772 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:18:24,976 [ERROR] ❌ Failed to process 'ssrn-5103833.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:20:57,426 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:20:57,521 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:20:57,731 [ERROR] ❌ Failed to process '9781474402095_Three_Short_Novels_Introduction.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:20:57,733 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:20:57,738 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:20:57,739 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:20:57,755 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:20:57,757 [ERROR] ❌ Failed to process 'file01.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:20:57,758 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:20:57,771 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:20:57,879 [ERROR] ❌ Failed to process 'file02.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:20:57,880 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:20:57,898 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:20:57,948 [ERROR] ❌ Failed to process 'file03.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:20:57,949 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:20:57,990 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:20:57,990 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:20:58,002 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:20:58,004 [ERROR] ❌ Failed to process 'file05.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:20:58,005 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:20:58,037 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:20:58,265 [ERROR] ❌ Failed to process 'ssrn-5103833.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:22:11,070 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:22:11,176 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:22:11,368 [ERROR] ❌ Failed to process '9781474402095_Three_Short_Novels_Introduction.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:22:11,371 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:22:11,377 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:22:11,377 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:22:11,395 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:22:11,398 [ERROR] ❌ Failed to process 'file01.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:22:11,399 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:22:11,408 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:22:11,506 [ERROR] ❌ Failed to process 'file02.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:22:11,508 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:22:11,525 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:22:11,569 [ERROR] ❌ Failed to process 'file03.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:22:11,571 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:22:11,615 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:22:11,616 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:22:11,629 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:22:11,631 [ERROR] ❌ Failed to process 'file05.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:22:11,632 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:22:11,666 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:22:11,879 [ERROR] ❌ Failed to process 'ssrn-5103833.pdf'. Error: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 198, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 148, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 43, in extract_outline_with_heuristics
+    prefix_regex = re.compile(r'^\s*((?:[IVXLCDM]+\b)|(?:[A-Z]\b)|(?:\d+(?:\.\d+)))\s[.\)]', re.IGNORECASE)
+                   ^^
+NameError: name 're' is not defined. Did you mean: 'e'? Or did you forget to import 're'?
+2025-07-26 00:24:02,868 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:24:02,974 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:24:03,350 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:24:03,351 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:24:03,355 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:24:03,355 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:24:03,374 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:24:03,380 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:24:03,381 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:24:03,391 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:24:03,573 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:24:03,574 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:24:03,594 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:24:03,673 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:24:03,674 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:24:03,714 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:24:03,714 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:24:03,729 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:24:03,749 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:24:03,750 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:24:03,784 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:24:04,169 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:31:48,790 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:31:48,898 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:31:49,264 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:31:49,265 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:31:49,270 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:31:49,271 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:31:49,286 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:31:49,293 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:31:49,294 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:31:49,307 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:31:49,534 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:31:49,535 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:31:49,550 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:31:49,627 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:31:49,627 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:31:49,666 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:31:49,666 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:31:49,679 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:31:49,683 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:31:49,683 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:31:49,713 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:31:50,093 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:34:35,355 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:34:35,457 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:34:35,808 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:34:35,809 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:34:35,814 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:34:35,814 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:34:35,828 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:34:35,834 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:34:35,834 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:34:35,847 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:34:36,019 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:34:36,019 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:34:36,036 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:34:36,123 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:34:36,124 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:34:36,163 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:34:36,163 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:34:36,176 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:34:36,181 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:34:36,181 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:34:36,215 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:34:36,624 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:36:27,215 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:36:27,311 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:36:27,670 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:36:27,671 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:36:27,676 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:36:27,676 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:36:27,691 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:36:27,699 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:36:27,700 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:36:27,712 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:36:27,890 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:36:27,891 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:36:27,913 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:36:27,998 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:36:27,998 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:36:28,043 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:36:28,044 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:36:28,059 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:36:28,071 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:36:28,072 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:36:28,115 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:36:28,514 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:37:31,750 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:37:31,839 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:37:32,057 [ERROR] ❌ Failed to process '9781474402095_Three_Short_Novels_Introduction.pdf'. Error: name 'level' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 158, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 108, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\pdf_utils.py", line 112, in extract_outline_with_heuristics
+    "level": level,
+             ^^^^^
+NameError: name 'level' is not defined. Did you mean: 'eval'?
+2025-07-26 00:37:32,060 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:37:32,065 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:37:32,065 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:37:32,080 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:37:32,084 [ERROR] ❌ Failed to process 'file01.pdf'. Error: name 'level' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 158, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 108, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\pdf_utils.py", line 112, in extract_outline_with_heuristics
+    "level": level,
+             ^^^^^
+NameError: name 'level' is not defined. Did you mean: 'eval'?
+2025-07-26 00:37:32,086 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:37:32,096 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:37:32,194 [ERROR] ❌ Failed to process 'file02.pdf'. Error: name 'level' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 158, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 108, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\pdf_utils.py", line 112, in extract_outline_with_heuristics
+    "level": level,
+             ^^^^^
+NameError: name 'level' is not defined. Did you mean: 'eval'?
+2025-07-26 00:37:32,196 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:37:32,213 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:37:32,263 [ERROR] ❌ Failed to process 'file03.pdf'. Error: name 'level' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 158, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 108, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\pdf_utils.py", line 112, in extract_outline_with_heuristics
+    "level": level,
+             ^^^^^
+NameError: name 'level' is not defined. Did you mean: 'eval'?
+2025-07-26 00:37:32,265 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:37:32,306 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:37:32,307 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:37:32,319 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:37:32,322 [ERROR] ❌ Failed to process 'file05.pdf'. Error: name 'level' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 158, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 108, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\pdf_utils.py", line 112, in extract_outline_with_heuristics
+    "level": level,
+             ^^^^^
+NameError: name 'level' is not defined. Did you mean: 'eval'?
+2025-07-26 00:37:32,324 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:37:32,355 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:37:32,583 [ERROR] ❌ Failed to process 'ssrn-5103833.pdf'. Error: name 'level' is not defined
+Traceback (most recent call last):
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 158, in <module>
+    result = extract_universal_outline(pdf_path)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\main2.py", line 108, in extract_universal_outline
+    outline = extract_outline_with_heuristics(doc)
+  File "C:\Users\shail\Desktop\Adobe Hackathon\adobe-hackathon\challenge-1a\app\pdf_utils.py", line 112, in extract_outline_with_heuristics
+    "level": level,
+             ^^^^^
+NameError: name 'level' is not defined. Did you mean: 'eval'?
+2025-07-26 00:39:34,366 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:39:34,522 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:39:34,882 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:39:34,883 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:39:34,888 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:39:34,889 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:39:34,902 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:39:34,909 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:39:34,909 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:39:34,918 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:39:35,090 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:39:35,091 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:39:35,107 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:39:35,184 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:39:35,184 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:39:35,228 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:39:35,228 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:39:35,243 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:39:35,246 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:39:35,246 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:39:35,279 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:39:35,691 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:41:22,299 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:41:22,395 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:41:22,753 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:41:22,754 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:41:22,759 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:41:22,759 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:41:22,775 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:41:22,781 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:41:22,781 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:41:22,792 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:41:22,976 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:41:22,977 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:41:22,994 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:41:23,077 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:41:23,078 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:41:23,117 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:41:23,117 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:41:23,130 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:41:23,134 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:41:23,134 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:41:23,165 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:41:23,545 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:43:22,018 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:43:22,118 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:43:22,472 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:43:22,473 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:43:22,478 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:43:22,478 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:43:22,493 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:43:22,498 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:43:22,499 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:43:22,512 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:43:22,704 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:43:22,705 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:43:22,722 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:43:22,800 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:43:22,801 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:43:22,841 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:43:22,842 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:43:22,855 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:43:22,859 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:43:22,860 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:43:22,893 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:43:23,274 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:45:53,243 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:45:53,354 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:45:53,738 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:45:53,738 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:45:53,744 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:45:53,745 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:45:53,765 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:45:53,773 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:45:53,773 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:45:53,788 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:45:53,971 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:45:53,972 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:45:53,987 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:45:54,066 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:45:54,066 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:45:54,108 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:45:54,108 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:45:54,122 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:45:54,127 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:45:54,128 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:45:54,164 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:45:54,561 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:46:52,670 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:46:52,714 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:46:53,094 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'
+2025-07-26 00:47:18,475 [INFO] Processing '9781474402095_Three_Short_Novels_Introduction.pdf'...
+2025-07-26 00:47:18,583 [WARNING] No valid TOC found in '9781474402095_Three_Short_Novels_Introduction.pdf'. Falling back to heuristics.
+2025-07-26 00:47:18,948 [INFO] ✅ Successfully created JSON for '9781474402095_Three_Short_Novels_Introduction.pdf'
+2025-07-26 00:47:18,949 [INFO] Processing 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'...
+2025-07-26 00:47:18,954 [INFO] ✅ Successfully created JSON for 'Adobe_India_Hackathon_-_Challenge_Doc.pdf'
+2025-07-26 00:47:18,955 [INFO] Processing 'file01.pdf'...
+2025-07-26 00:47:18,967 [WARNING] No valid TOC found in 'file01.pdf'. Falling back to heuristics.
+2025-07-26 00:47:18,972 [INFO] ✅ Successfully created JSON for 'file01.pdf'
+2025-07-26 00:47:18,973 [INFO] Processing 'file02.pdf'...
+2025-07-26 00:47:18,982 [WARNING] No valid TOC found in 'file02.pdf'. Falling back to heuristics.
+2025-07-26 00:47:19,177 [INFO] ✅ Successfully created JSON for 'file02.pdf'
+2025-07-26 00:47:19,178 [INFO] Processing 'file03.pdf'...
+2025-07-26 00:47:19,195 [WARNING] No valid TOC found in 'file03.pdf'. Falling back to heuristics.
+2025-07-26 00:47:19,276 [INFO] ✅ Successfully created JSON for 'file03.pdf'
+2025-07-26 00:47:19,276 [INFO] Processing 'file04.pdf'...
+2025-07-26 00:47:19,317 [INFO] ✅ Successfully created JSON for 'file04.pdf'
+2025-07-26 00:47:19,317 [INFO] Processing 'file05.pdf'...
+2025-07-26 00:47:19,330 [WARNING] No valid TOC found in 'file05.pdf'. Falling back to heuristics.
+2025-07-26 00:47:19,334 [INFO] ✅ Successfully created JSON for 'file05.pdf'
+2025-07-26 00:47:19,334 [INFO] Processing 'ssrn-5103833.pdf'...
+2025-07-26 00:47:19,366 [WARNING] No valid TOC found in 'ssrn-5103833.pdf'. Falling back to heuristics.
+2025-07-26 00:47:19,740 [INFO] ✅ Successfully created JSON for 'ssrn-5103833.pdf'

@@ -1,0 +1,30 @@
+{
+    "title": "",
+    "outline": [
+        {
+            "text": "Welcome to the “Connecting the Dots” Challenge",
+            "level": "H1",
+            "page": 2
+        },
+        {
+            "text": "Round 1A: Understand Your Document",
+            "level": "H1",
+            "page": 3
+        },
+        {
+            "text": "Round 1B: Persona-Driven Document Intelligence",
+            "level": "H1",
+            "page": 7
+        },
+        {
+            "text": "Appendix:",
+            "level": "H1",
+            "page": 10
+        },
+        {
+            "text": "https://github.com/jhaaj08/Adobe-India-Hackathon25.git",
+            "level": "H1",
+            "page": 10
+        }
+    ]
+}
