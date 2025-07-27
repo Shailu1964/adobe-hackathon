@@ -150,7 +150,7 @@ def main():
         PROJECT_ROOT = os.path.abspath(".")
 
     INPUT_DIR = os.path.join(PROJECT_ROOT, 'input')
-    OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
+    OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output/Collection 1')
     MODEL_PATH = os.path.join(PROJECT_ROOT, 'models', 'all-MiniLM-L6-v2')
     
     # --- 2. Load Inputs ---

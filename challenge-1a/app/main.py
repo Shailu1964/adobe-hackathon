@@ -116,13 +116,13 @@ if __name__ == "__main__":
 
     # Set up logging
     logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s [%(levelname)s] %(message)s',
-        handlers=[
-            logging.FileHandler("process.log", encoding="utf-8"),
-            logging.StreamHandler()
-        ]
-    )
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler("/tmp/process.log", encoding="utf-8"),
+        logging.StreamHandler()
+    ]
+)
 
     parser = argparse.ArgumentParser(description="Batch PDF Outline Extractor")
     parser.add_argument('--input-dir', type=str, default=None, help='Input directory with PDF files')

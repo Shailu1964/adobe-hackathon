@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  pdf-outline-extractor:
+    build: .
+    image: pdf-outline-extractor:latest
+    container_name: pdf-outline-extractor
+    # Mount local input/output folders to the container (works for Windows and Linux)
+    volumes:
+      - ./input:/input
+      - ./output:/output
+    working_dir: /
+    # user: appuser
+    command: ["python", "main.py"]
+    restart: unless-stopped

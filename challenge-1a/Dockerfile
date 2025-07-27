@@ -1,19 +1,33 @@
-# Use a specific platform to meet the requirement [cite: 57]
-# Using a slim Python image to keep the final container size down.
+# Use a specific platform and a slim Python image for efficiency
 FROM --platform=linux/amd64 python:3.9-slim
 
-# Set the working directory inside the container
-WORKDIR /app
+# Set environment variables for non-interactive installs
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
 
-# Copy the requirements file first to leverage Docker's layer caching
-COPY app/requirements.txt .
+# Set the working directory
+WORKDIR /
 
-# Install the Python dependencies [cite: 86]
-RUN pip install --no-cache-dir -r requirements.txt
+# Install system dependencies (if PyMuPDF or others need them)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    libmupdf-dev \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy the rest of the application code into the container
+# Copy requirements and install Python dependencies
+COPY app/requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt tqdm
+
+# Copy the application code
 COPY ./app .
 
-# Command to run the application. It will process all PDFs
-# from /app/input and write to /app/output as required [cite: 69]
+# Create input/output folders if not present
+RUN mkdir -p /input /output
+
+# Use a non-root user for security
+# RUN useradd -m appuser
+# RUN chown -R appuser:appuser /app
+# USER appuser
+
+# Default command: process all PDFs in /app/input and write to /app/output
 CMD ["python", "main.py"]
