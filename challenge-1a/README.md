@@ -149,24 +149,23 @@ docker run --rm -v $(pwd)/my_pdfs:/input -v $(pwd)/my_json:/output pdf-outline-e
 
 ## Troubleshooting
 - **No PDF files found:**
-  - Ensure you have placed your PDFs in the correct `input/` directory and mounted it properly.
-- **Permission Errors:**
-  - On Windows, run containers as root (default setup) to avoid volume permission issues.
-- **Heuristic Fallback:**
-  - For large or complex PDFs, outline extraction may fall back to heuristics if the TOC is missing.
-- **Logs:**
-  - Check `/tmp/process.log` inside the container for detailed logs.
 
 ---
 
-## Extending the Project
-- The code is modular: you can enhance outline extraction, add semantic heading classification, or integrate with other document processing tools.
-- `pdf_utils.py` contains reusable PDF parsing utilities.
+## 🛠️ Troubleshooting
+- **No PDFs found:** Ensure files are in the `input/` directory and have `.pdf` extensions.
+- **Permission errors:** Check read/write permissions on `input/` and `output/`.
+- **Missing dependencies:** Run `pip install -r app/requirements.txt` again.
+- **Docker issues:** Ensure Docker is installed and running. Use `sudo` if necessary on Linux/Mac.
+- **Logs:** Detailed logs are in `app/process.log`.
 
 ---
 
-## Contribution Guidelines
-- Fork this repository and create a new branch for your feature or bugfix.
+## 🤝 Contributing
+1. Fork this repo and create a feature branch.
+2. Follow existing code style and add docstrings/comments.
+3. Test your changes locally.
+4. Submit a pull request with a clear description.
 - Make your changes and add tests if relevant.
 - Submit a pull request with a clear description.
 - Follow best practices for Python (PEP8) and Docker.
